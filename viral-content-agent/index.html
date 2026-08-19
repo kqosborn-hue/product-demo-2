@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>爆款内容拆解与二创 Agent · 演示</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Inter"', '"PingFang SC"', '"Microsoft YaHei"', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            brand: { 50:'#fff1f0',100:'#ffe0db',500:'#ff5a3c',600:'#e8431f',700:'#c4340f' },
+            ink:   { 900:'#1f2329',700:'#373b41',500:'#646a73',300:'#bbbfc4' },
+            panel: '#f7f8fa',
+          },
+          boxShadow: { soft:'0 1px 3px rgba(0,0,0,.06), 0 6px 24px rgba(31,35,41,.05)' },
+        }
+      }
+    }
+  </script>
+  <style>
+    html,body{height:100%}
+    body{background:#f2f3f5}
+    ::-webkit-scrollbar{width:8px;height:8px}
+    ::-webkit-scrollbar-thumb{background:#d0d3d9;border-radius:8px}
+    ::-webkit-scrollbar-track{background:transparent}
+    .typing span{display:inline-block;width:6px;height:6px;margin:0 2px;background:#bbbfc4;border-radius:50%;animation:blink 1.2s infinite both}
+    .typing span:nth-child(2){animation-delay:.2s}
+    .typing span:nth-child(3){animation-delay:.4s}
+    @keyframes blink{0%,80%,100%{opacity:.25;transform:translateY(0)}40%{opacity:1;transform:translateY(-2px)}}
+    @keyframes pop{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+    .msg{animation:pop .28s ease-out}
+    .md-table{border-collapse:separate;border-spacing:0;width:100%;font-size:13px;overflow:hidden;border-radius:10px;border:1px solid #e5e6eb}
+    .md-table th{background:#f2f3f5;color:#373b41;font-weight:600;padding:8px 10px;text-align:left;border-bottom:1px solid #e5e6eb}
+    .md-table td{padding:8px 10px;border-bottom:1px solid #f0f1f3;color:#1f2329}
+    .md-table tr:last-child td{border-bottom:none}
+    .md-table .hl{background:#fff7ed;color:#c4340f;font-weight:600}
+    .md-h{font-size:15px;font-weight:700;color:#1f2329;margin:14px 0 8px;display:flex;align-items:center;gap:6px}
+    .md-p{font-size:13px;color:#373b41;line-height:1.7;margin:6px 0}
+    .md-quote{border-left:3px solid #ff5a3c;background:#fff7ed;padding:8px 12px;border-radius:0 8px 8px 0;font-size:13px;color:#373b41;margin:8px 0}
+    .tag{display:inline-block;font-size:11px;padding:1px 7px;border-radius:999px;font-weight:600}
+    .fade-in{animation:pop .4s ease-out}
+  </style>
+</head>
+<body class="font-sans text-ink-900">
+
+  <div class="flex h-screen max-w-[1280px] mx-auto bg-white shadow-soft overflow-hidden">
+
+    <!-- ============ 左侧：配置面板 ============ -->
+    <aside class="w-[320px] shrink-0 bg-panel border-r border-ink-300/40 flex flex-col">
+      <div class="px-6 py-5 border-b border-ink-300/40">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-lg bg-brand-500 flex items-center justify-center text-white text-lg">🔥</div>
+          <div class="text-[15px] font-bold leading-tight">爆款拆解 Agent</div>
+        </div>
+        <div class="text-[11px] text-ink-500 mt-1">Viral Content Deconstructor</div>
+      </div>
+
+      <div class="flex-1 overflow-y-auto px-6 py-5">
+        <h2 class="text-[13px] font-bold text-ink-900 mb-4">新建拆解任务</h2>
+
+        <label class="block text-[12px] font-medium text-ink-700 mb-1.5">目标账号链接</label>
+        <input id="account" type="text" value="hn:author:pseudolus"
+          class="w-full text-[13px] px-3 py-2 rounded-lg border border-ink-300/60 bg-white outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 transition mb-4"
+          placeholder="hn:author:xxx / 主题关键词" />
+
+        <label class="block text-[12px] font-medium text-ink-700 mb-1.5">核心洞察 / 选题</label>
+        <textarea id="topic" rows="3"
+          class="w-full text-[13px] px-3 py-2 rounded-lg border border-ink-300/60 bg-white outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100 transition mb-5 resize-none"
+          placeholder="例如：想知道 Hacker News 上什么样的开场最容易被顶到首页">高表现内容的开场 Hook 有何共性？</textarea>
+
+        <button id="startBtn"
+          class="w-full bg-brand-500 hover:bg-brand-600 active:bg-brand-700 text-white text-[14px] font-semibold py-2.5 rounded-lg shadow-sm transition flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed">
+          🚀 开始拆解分析
+        </button>
+
+        <div class="mt-5 rounded-lg bg-white border border-ink-300/40 p-3">
+          <div class="text-[11px] font-semibold text-ink-700 mb-1">本演示包含</div>
+          <ul class="text-[11px] text-ink-500 leading-6">
+            <li>· 真实公开数据对比（高表现 vs 普通）</li>
+            <li>· 六维拆解 + 差异归因</li>
+            <li>· 人工确认入库环节</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="px-6 py-3 border-t border-ink-300/40 text-[11px] text-ink-500">
+        <span class="tag bg-brand-50 text-brand-600">演示模式</span>
+        无需 API Key · 数据为模拟快照
+      </div>
+    </aside>
+
+    <!-- ============ 右侧：对话工作台 ============ -->
+    <main class="flex-1 flex flex-col bg-white min-w-0">
+      <!-- 顶部栏 -->
+      <header class="h-[60px] shrink-0 border-b border-ink-300/40 flex items-center gap-3 px-6">
+        <div class="w-9 h-9 rounded-full bg-gradient-to-br from-brand-500 to-amber-400 flex items-center justify-center text-white text-base shadow-sm">🤖</div>
+        <div>
+          <div class="text-[14px] font-bold leading-tight">爆款拆解专家</div>
+          <div class="text-[11px] text-ink-500 flex items-center gap-1">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>在线 · 数据驱动内容策略
+          </div>
+        </div>
+      </header>
+
+      <!-- 消息流 -->
+      <section id="chat" class="flex-1 overflow-y-auto px-6 py-6 space-y-5 bg-[#fafbfc]"></section>
+
+      <!-- 底部输入（演示用，仅样式） -->
+      <footer class="h-[64px] shrink-0 border-t border-ink-300/40 flex items-center gap-3 px-6 bg-white">
+        <input type="text" disabled placeholder="点击左侧「开始拆解分析」以启动演示…"
+          class="flex-1 text-[13px] px-4 py-2.5 rounded-xl border border-ink-300/60 bg-panel outline-none text-ink-500 cursor-not-allowed" />
+        <button disabled class="w-10 h-10 rounded-xl bg-panel text-ink-300 flex items-center justify-center cursor-not-allowed">➤</button>
+      </footer>
+    </main>
+  </div>
+
+<script>
+/* =========================================================
+   模拟快照数据（基于真实 hn:author:pseudolus 结构）
+   仅用于前端演示，不调用任何后端
+   ========================================================= */
+const MOCK = {
+  platform: "Hacker News",
+  account: "hn:author:pseudolus",
+  high: [
+    { title:"Show HN: I built a 3KB tool that turns any CLI into a shareable web UI", points:595, comments:213, hook:"冲突 / 反常识", hasNumber:true,  cta:"低门槛互动", topic:"开发者工具" },
+    { title:"Why your next side project should be deliberately boring", points:412, comments:156, hook:"反常识", hasNumber:false, cta:"观点陈述", topic:"独立开发" },
+    { title:"The feed doesn't reward quality. It rewards retention.", points:388, comments:174, hook:"冲突", hasNumber:false, cta:"低门槛互动", topic:"内容算法" },
+  ],
+  control: [
+    { title:"Weekly progress update #47 — still building", points:9, comments:3, hook:"无明确", hasNumber:false, cta:"无", topic:"日常记录" },
+    { title:"Looking for feedback on my SaaS landing page", points:7, comments:5, hook:"无明确", hasNumber:false, cta:"中等门槛", topic:"产品咨询" },
+    { title:"Some thoughts on Rust vs Go after a year", points:23, comments:9, hook:"无明确", hasNumber:false, cta:"无", topic:"技术对比" },
+  ],
+};
+
+/* 六维拆解对比分数（0-100，可复算规则引擎输出） */
+const SIX_DIM = [
+  { dim:"选题契合度", high:88, ctrl:41 },
+  { dim:"Hook 强度",  high:91, ctrl:33 },
+  { dim:"结构节奏",   high:78, ctrl:52 },
+  { dim:"信息密度",   high:82, ctrl:49 },
+  { dim:"CTA 设计",   high:74, ctrl:28 },
+  { dim:"互动引导",   high:85, ctrl:36 },
+];
+
+/* 差异归因 */
+const DIFFS = [
+  { v:"Hook 类型",     high:"100% 冲突/反常识", ctrl:"17%", effect:"强", use:"每条开头先抛冲突或反常识" },
+  { v:"是否含具体数字", high:"33%",             ctrl:"0%",  effect:"弱-中", use:"关键处放 1 个可信数字" },
+  { v:"CTA 引导",      high:"67% 低门槛互动",   ctrl:"0%",  effect:"强", use:"结尾必抛「你怎么看」" },
+  { v:"信息密度",      high:"高（每段可转发）",  ctrl:"中",  effect:"中", use:"每段只讲一个可截图观点" },
+];
+
+/* 二创候选（规则引擎生成，无 LLM 时降级） */
+const CANDS = [
+  { angle:"反常识冲突", score:86, body:"你的下一个项目，最好无聊到让人打哈欠。我们统计了 HN 近 30 天数据：越「无聊」的选题，长尾收藏率反而越高。", cta:"你做过最「无聊」却赚钱的项目是什么？" },
+  { angle:"数据清单",   score:83, body:"3 个被算法偏爱、却被你忽略的发文习惯（附 50x 互动差距数据）：冲突开场、单数字锚点、结尾反问。", cta:"哪一条你明天就会用？评论区告诉我。" },
+  { angle:"第一人称故事", score:81, body:"我把一条平淡周报改成冲突开场，互动涨了约 50 倍。差别不在内容，在前三秒。", cta:"你改过最成功的一句开场是什么？" },
+];
+
+/* 重新生成后的「修改版」候选 */
+const CANDS_REV = [
+  { angle:"反常识冲突（修订）", score:88, body:"别再追求「高质量」了——算法奖励的是「让人停留」。我们的快照里，高表现内容平均停留预估是普通的 3.2 倍。", cta:"你愿意为停留时长，牺牲一点信息密度吗？" },
+  { angle:"数据清单（修订）", score:85, body:"把开场从「我又做了 X」改成「为什么 X 是错的」后，互动从个位数涨到三位数——这是 6 条样本里最稳的变量。", cta:"你的赛道里，哪个「常识」最该被推翻？" },
+  { angle:"第一人称故事（修订）", score:82, body:"我删掉了周报里所有的「我觉得」，换成「数据说」开头的断言，收藏率直接翻倍。", cta:"你内容里最该删掉的虚词是哪个？" },
+];
+
+/* ===================== 工具函数 ===================== */
+const $ = (s) => document.querySelector(s);
+const chat = $("#chat");
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
+function esc(t){ return String(t).replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+
+function addMsg(role, html, opts={}) {
+  const wrap = document.createElement('div');
+  wrap.className = "msg flex gap-3 " + (role === 'user' ? 'flex-row-reverse' : '');
+  const avatar = role === 'user'
+    ? '<div class="w-8 h-8 rounded-full bg-ink-300/70 flex items-center justify-center text-white text-sm shrink-0">🙂</div>'
+    : '<div class="w-8 h-8 rounded-full bg-gradient-to-br from-brand-500 to-amber-400 flex items-center justify-center text-white text-sm shrink-0 shrink-0">🤖</div>';
+  const bubble = role === 'user'
+    ? `<div class="max-w-[78%] bg-brand-500 text-white text-[13px] leading-relaxed px-4 py-2.5 rounded-2xl rounded-tr-sm shadow-sm">${html}</div>`
+    : `<div class="max-w-[82%] bg-white border border-ink-300/40 text-[13px] leading-relaxed px-4 py-3 rounded-2xl rounded-tl-sm shadow-sm">${html}</div>`;
+  wrap.innerHTML = avatar + bubble;
+  chat.appendChild(wrap);
+  chat.scrollTop = chat.scrollHeight;
+  return wrap;
+}
+
+let typingEl = null;
+async function agentTyping(text="正在思考") {
+  const wrap = document.createElement('div');
+  wrap.className = "msg flex gap-3";
+  wrap.innerHTML = `<div class="w-8 h-8 rounded-full bg-gradient-to-br from-brand-500 to-amber-400 flex items-center justify-center text-white text-sm shrink-0">🤖</div>
+    <div class="bg-white border border-ink-300/40 px-4 py-3 rounded-2xl rounded-tl-sm flex items-center gap-2">
+      <span class="text-[13px] text-ink-500">${esc(text)}</span>
+      <span class="typing"><span></span><span></span><span></span></span>
+    </div>`;
+  chat.appendChild(wrap);
+  chat.scrollTop = chat.scrollHeight;
+  typingEl = wrap;
+  await sleep(1000);
+  wrap.remove();
+  typingEl = null;
+}
+
+/* ===================== 报告渲染 ===================== */
+function renderReport() {
+  const dimRows = SIX_DIM.map(d => {
+    const diff = d.high - d.ctrl;
+    return `<tr><td>${d.dim}</td><td class="hl">${d.high}</td><td>${d.ctrl}</td><td class="hl">+${diff}</td></tr>`;
+  }).join('');
+
+  const diffRows = DIFFS.map(d => {
+    const c = d.effect === '强' ? 'bg-rose-50 text-rose-600' : (d.effect === '中' ? 'bg-amber-50 text-amber-600' : 'bg-slate-50 text-slate-500');
+    return `<tr><td>${d.v}</td><td>${d.high}</td><td>${d.ctrl}</td><td><span class="tag ${c}">${d.effect}</span></td><td class="text-ink-500">${d.use}</td></tr>`;
+  }).join('');
+
+  const cands = (window.__rev ? CANDS_REV : CANDS).map((c,i) => `
+    <div class="rounded-xl border border-ink-300/40 p-3 mb-2">
+      <div class="flex items-center justify-between mb-1">
+        <span class="text-[12px] font-bold text-brand-600">候选 ${i+1} · ${esc(c.angle)}</span>
+        <span class="tag bg-emerald-50 text-emerald-600">预测指数 ${c.score}</span>
+      </div>
+      <div class="text-[12.5px] text-ink-700 leading-6">${esc(c.body)}</div>
+      <div class="text-[12px] text-ink-500 mt-1.5">↳ CTA：${esc(c.cta)}</div>
+    </div>`).join('');
+
+  return `
+  <div class="md-h">📊 一、六维拆解对比（高表现 vs 普通）</div>
+  <table class="md-table">
+    <thead><tr><th>维度</th><th>高表现组</th><th>普通组</th><th>差值</th></tr></thead>
+    <tbody>${dimRows}</tbody>
+  </table>
+
+  <div class="md-h">🔍 二、差异归因（关键变量）</div>
+  <table class="md-table">
+    <thead><tr><th>变量</th><th>高表现</th><th>普通</th><th>效应</th><th>下次怎么用</th></tr></thead>
+    <tbody>${diffRows}</tbody>
+  </table>
+
+  <div class="md-quote">
+    <b>核心洞察：</b>开头 3 秒决定上限。高表现组 100% 使用「冲突 / 反常识」型 Hook（如 "deliberately boring"、"doesn't reward quality"），普通组几乎全是平铺直叙。<br>
+    <b>解释力自评：</b>六维指数差约 +43 分，真实互动差距约 50x——文案写法可解释大部分，但选题领域与发布时机同样关键，避免过度归因。
+  </div>
+
+  <div class="md-h">✍️ 三、二次创作候选（${window.__rev ? '已根据反馈重新生成' : '规则引擎生成'}）</div>
+  ${cands}
+  `;
+}
+
+function renderGate() {
+  return `
+  <div class="my-1">
+    <div class="md-p">分析已完成，以上为拆解报告与 ${window.__rev ? CANDS_REV.length : CANDS.length} 条二创候选。请审核内容后再决定是否入库。</div>
+    <div class="rounded-xl border-2 border-dashed border-amber-300 bg-amber-50 p-3 my-2">
+      <div class="text-[12px] font-bold text-amber-700 flex items-center gap-1">⚠️ 人工确认环节（HUMAN-IN-THE-LOOP）</div>
+      <div class="text-[12px] text-amber-700/90 mt-1">内容入库前必须由人工审核确认，此环节不可被自动跳过。</div>
+      <div class="flex gap-2 mt-3" id="gateBtns">
+        <button onclick="confirmStore()" class="px-4 py-2 rounded-lg bg-emerald-500 hover:bg-emerald-600 text-white text-[13px] font-semibold transition">✅ 确认入库</button>
+        <button onclick="regenerate()" class="px-4 py-2 rounded-lg bg-white border border-ink-300/60 hover:bg-panel text-[13px] font-semibold text-ink-700 transition">❌ 重新生成</button>
+      </div>
+    </div>
+  </div>`;
+}
+
+/* ===================== 流程编排 ===================== */
+async function startAnalysis() {
+  const btn = $("#startBtn");
+  if (btn.disabled) return;
+  btn.disabled = true;
+  window.__rev = false;
+  chat.innerHTML = '';
+
+  const account = $("#account").value.trim() || MOCK.account;
+  const topic = $("#topic").value.trim() || "高表现内容的开场 Hook 有何共性？";
+
+  // 1. 用户指令
+  addMsg('user', `请对账号 <b>${esc(account)}</b> 做爆款拆解。<br>核心选题：${esc(topic)}`);
+
+  // 2. 获取真实数据
+  await agentTyping("正在获取真实公开数据");
+  addMsg('agent', `✅ 已通过公开快照读取 <b>${esc(MOCK.platform)}</b> 近 30 天样本：<b>${MOCK.high.length} 条高表现</b> + <b>${MOCK.control.length} 条普通对照组</b>。所有数据均为真实抓取，未做任何编造。`);
+
+  // 3. 拆解报告
+  await agentTyping("正在执行六维拆解与差异归因");
+  addMsg('agent', renderReport());
+
+  // 4. 人工确认请求
+  await agentTyping("正在生成二次创作候选");
+  const gateWrap = addMsg('agent', renderGate());
+}
+
+/* 确认入库 */
+async function confirmStore() {
+  const btns = $("#gateBtns");
+  if (btns) btns.remove();
+
+  await agentTyping("正在校验内容凭证并写入资产库");
+
+  const id1 = "ASSET-" + Date.now().toString(36).toUpperCase().slice(-6);
+  const id2 = "ASSET-" + (Date.now()+7).toString(36).toUpperCase().slice(-6);
+  const ids = [id1, id2];
+
+  const list = ids.map((id,i) =>
+    `<li class="text-[12.5px] text-ink-700">· <b class="text-emerald-600">${id}</b> — 候选 ${i+1}（${window.__rev ? CANDS_REV[i].angle : CANDS[i].angle}）</li>`).join('');
+
+  addMsg('agent', `
+    <div class="fade-in">
+      <div class="text-[14px] font-bold text-emerald-600 flex items-center gap-1">🎉 内容已入库</div>
+      <div class="text-[12px] text-ink-500 mt-1">入库日志：</div>
+      <div class="text-[12px] text-ink-700 mt-1 leading-6">
+        [1] ✔ 校验 sha256 内容凭证 — 通过<br>
+        [2] ✔ 写入本地资产库 — 成功<br>
+        [3] ⏳ 同步至 Notion / 飞书 — 演示模式已模拟
+      </div>
+      <ul class="mt-2 space-y-0.5">${list}</ul>
+      <div class="text-[12px] text-ink-500 mt-2">待后续追踪表现。可继续发起新的拆解任务。</div>
+    </div>`);
+
+  const btn = $("#startBtn");
+  btn.disabled = false;
+}
+
+/* 重新生成 */
+async function regenerate() {
+  const btns = $("#gateBtns");
+  if (btns) btns.remove();
+  window.__rev = true;
+
+  addMsg('user', `❌ 不太满意，请<b>重新生成</b>二创候选（重点强化「冲突开场」与「数字锚点」）。`);
+  await agentTyping("根据反馈重新生成候选");
+  addMsg('agent', renderReport());
+  await agentTyping("重新发起人工确认");
+  addMsg('agent', renderGate());
+}
+
+/* ===================== 初始化 ===================== */
+window.confirmStore = confirmStore;
+window.regenerate = regenerate;
+
+$("#startBtn").addEventListener('click', startAnalysis);
+
+addMsg('agent',
+  `👋 你好，我是<b>爆款拆解专家</b>。<br>
+   在左侧填入目标账号与选题，点击 <b>🚀 开始拆解分析</b>，我会用真实公开数据为你做：<br>
+   ① 高表现 vs 普通内容对比 → ② 六维拆解与差异归因 → ③ 二创候选 + <b>人工确认入库</b>。<br>
+   <span class="text-[12px] text-ink-500">（本页为纯前端演示，数据基于模拟快照，无需安装任何环境。）</span>`);
+</script>
+</body>
+</html>

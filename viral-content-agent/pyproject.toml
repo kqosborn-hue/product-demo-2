@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+# 让项目根目录（含 config/ 与 src/ 两个顶层包）进入 import 搜索路径，
+# 这样测试里可以直接 `from config.settings import ...` / `from src.agent import ...`
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"

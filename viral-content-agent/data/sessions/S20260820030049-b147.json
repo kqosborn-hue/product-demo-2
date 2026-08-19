@@ -1,0 +1,2130 @@
+{
+  "id": "S20260820030049-b147",
+  "account": "hn:author:pseudolus",
+  "stage": "ABORTED",
+  "created_at": "2026-08-19T19:00:49.608529+00:00",
+  "updated_at": "2026-08-19T19:00:49.650372+00:00",
+  "revision_round": 0,
+  "dataset": {
+    "account": "hn:author:pseudolus",
+    "platform": "hn",
+    "window_days": 30,
+    "fetched_at": "2026-08-19T19:00:49.609248+00:00",
+    "provider": "local-snapshot",
+    "source_urls": [
+      "https://hn.algolia.com/api/v1/search_by_date?tags=author_pseudolus,story&query=&numericFilters=created_at_i>1784572133"
+    ],
+    "notes": [
+      "使用本地真实抓取快照：hn-author-pseudolus.json（原始通道 hackernews-algolia，抓取时间 2026-08-19T18:28:54.492473+00:00）"
+    ],
+    "posts": [
+      {
+        "id": "hn-49361498",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49361498",
+        "published_at": "2026-08-19T13:42:48+00:00",
+        "text": "Could indigo light prevent nearsightedness in children?\n\nhttps://www.science.org/content/article/could-indigo-light-prevent-nearsightedness-children",
+        "metrics": {
+          "likes": 1,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.science.org/content/article/could-indigo-light-prevent-nearsightedness-children",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49361498"
+          ]
+        }
+      },
+      {
+        "id": "hn-49360067",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49360067",
+        "published_at": "2026-08-19T11:26:53+00:00",
+        "text": "Theban tomb reveals how Egyptian burial trends evolved in time\n\nhttps://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
+        "metrics": {
+          "likes": 1,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49360067"
+          ]
+        }
+      },
+      {
+        "id": "hn-49359857",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49359857",
+        "published_at": "2026-08-19T11:03:26+00:00",
+        "text": "Silicon Valley Executives Are Tech Fans. Just Not for Their Own Kids\n\nhttps://www.nytimes.com/2026/08/18/technology/silicon-valley-tech-fans-children.html",
+        "metrics": {
+          "likes": 10,
+          "comments": 3,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.nytimes.com/2026/08/18/technology/silicon-valley-tech-fans-children.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49359857"
+          ]
+        }
+      },
+      {
+        "id": "hn-49359841",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49359841",
+        "published_at": "2026-08-19T11:00:59+00:00",
+        "text": "Is the World Getting Uglier?\n\nhttps://time.com/article/2026/08/18/is-the-world-getting-uglier/",
+        "metrics": {
+          "likes": 2,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://time.com/article/2026/08/18/is-the-world-getting-uglier/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49359841"
+          ]
+        }
+      },
+      {
+        "id": "hn-49355360",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49355360",
+        "published_at": "2026-08-19T01:22:45+00:00",
+        "text": "That Disgraceful, Disreputable, (Wonderful) Form of Punctuation: The Parenthesis\n\nhttps://lithub.com/on-that-disgraceful-disreputable-wonderful-form-of-punctuation-the-parenthesis/",
+        "metrics": {
+          "likes": 37,
+          "comments": 26,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://lithub.com/on-that-disgraceful-disreputable-wonderful-form-of-punctuation-the-parenthesis/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49355360"
+          ]
+        }
+      },
+      {
+        "id": "hn-49355320",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49355320",
+        "published_at": "2026-08-19T01:16:55+00:00",
+        "text": "OpenAI announces slowing pace of development after hack by rogue agent\n\nhttps://www.theguardian.com/technology/2026/aug/18/open-ai-pause-hack",
+        "metrics": {
+          "likes": 3,
+          "comments": 3,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.theguardian.com/technology/2026/aug/18/open-ai-pause-hack",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49355320"
+          ]
+        }
+      },
+      {
+        "id": "hn-49355231",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49355231",
+        "published_at": "2026-08-19T01:06:03+00:00",
+        "text": "The Economics and Engineering of On-Premises LLMs\n\nhttps://cacm.acm.org/blogcacm/the-economics-and-engineering-of-on-premises-llms/",
+        "metrics": {
+          "likes": 6,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://cacm.acm.org/blogcacm/the-economics-and-engineering-of-on-premises-llms/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49355231"
+          ]
+        }
+      },
+      {
+        "id": "hn-49344085",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49344085",
+        "published_at": "2026-08-18T11:24:23+00:00",
+        "text": "Democracy vs. the machine: birth of digital age,the warnings that were ignored\n\nhttps://www.theguardian.com/news/2026/aug/18/the-long-read-democracy-v-the-machine-digital-age-warnings-computer-history-technology",
+        "metrics": {
+          "likes": 22,
+          "comments": 1,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.theguardian.com/news/2026/aug/18/the-long-read-democracy-v-the-machine-digital-age-warnings-computer-history-technology",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49344085"
+          ]
+        }
+      },
+      {
+        "id": "hn-49343957",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49343957",
+        "published_at": "2026-08-18T11:10:44+00:00",
+        "text": "AI Used to Verify Toughest Mathematics Proof Yet\n\nhttps://spectrum.ieee.org/axiom-math-246-theorem-formalization",
+        "metrics": {
+          "likes": 2,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://spectrum.ieee.org/axiom-math-246-theorem-formalization",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49343957"
+          ]
+        }
+      },
+      {
+        "id": "hn-49343855",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49343855",
+        "published_at": "2026-08-18T10:57:49+00:00",
+        "text": "The Case for Deep Conversation in a World of Small Talk\n\nhttps://thewalrus.ca/small-talk/",
+        "metrics": {
+          "likes": 1,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://thewalrus.ca/small-talk/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49343855"
+          ]
+        }
+      },
+      {
+        "id": "hn-49343559",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49343559",
+        "published_at": "2026-08-18T10:13:28+00:00",
+        "text": "Google has acquired the data of failed US airline Spirit\n\nhttps://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+        "metrics": {
+          "likes": 595,
+          "comments": 414,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49343559"
+          ]
+        }
+      },
+      {
+        "id": "hn-49328939",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49328939",
+        "published_at": "2026-08-17T10:49:20+00:00",
+        "text": "Why Aging May Be a Program, Not a Breakdown\n\nhttps://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814/",
+        "metrics": {
+          "likes": 4,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49328939"
+          ]
+        }
+      },
+      {
+        "id": "hn-49328934",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49328934",
+        "published_at": "2026-08-17T10:48:21+00:00",
+        "text": "China Wants to Shape What the A.I. Knows\n\nhttps://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html",
+        "metrics": {
+          "likes": 7,
+          "comments": 1,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49328934"
+          ]
+        }
+      },
+      {
+        "id": "hn-49319459",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49319459",
+        "published_at": "2026-08-16T12:32:14+00:00",
+        "text": "Astronomers May Have Discovered a New Kind of Celestial Object: Black Hole Stars\n\nhttps://www.smithsonianmag.com/smart-news/astronomers-peered-at-the-early-universe-and-may-have-discovered-a-new-kind-of-celestial-object-black-hole-stars-180989334/",
+        "metrics": {
+          "likes": 6,
+          "comments": 1,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.smithsonianmag.com/smart-news/astronomers-peered-at-the-early-universe-and-may-have-discovered-a-new-kind-of-celestial-object-black-hole-stars-180989334/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49319459"
+          ]
+        }
+      },
+      {
+        "id": "hn-49319444",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49319444",
+        "published_at": "2026-08-16T12:30:06+00:00",
+        "text": "AI-Prepped Paper Passed Peer Review. Now What?\n\nhttps://cacm.acm.org/news/ai-prepped-paper-passed-peer-review-now-what/",
+        "metrics": {
+          "likes": 4,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://cacm.acm.org/news/ai-prepped-paper-passed-peer-review-now-what/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49319444"
+          ]
+        }
+      },
+      {
+        "id": "hn-49315036",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49315036",
+        "published_at": "2026-08-15T22:51:44+00:00",
+        "text": "The mesmerising art of macro photography\n\nhttps://www.theguardian.com/environment/2026/aug/15/once-i-started-zooming-in-i-never-stopped-the-mesmerising-art-of-macro-photography",
+        "metrics": {
+          "likes": 8,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.theguardian.com/environment/2026/aug/15/once-i-started-zooming-in-i-never-stopped-the-mesmerising-art-of-macro-photography",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49315036"
+          ]
+        }
+      },
+      {
+        "id": "hn-49311445",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49311445",
+        "published_at": "2026-08-15T15:32:25+00:00",
+        "text": "AI Can Now Design Functional Viruses. Should We Worry?\n\nhttps://spectrum.ieee.org/ai-designed-virus",
+        "metrics": {
+          "likes": 61,
+          "comments": 141,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://spectrum.ieee.org/ai-designed-virus",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49311445"
+          ]
+        }
+      },
+      {
+        "id": "hn-49311379",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49311379",
+        "published_at": "2026-08-15T15:25:16+00:00",
+        "text": "OpenAI talent exodus raises 'huge red flag' ahead of IPO\n\nhttps://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+        "metrics": {
+          "likes": 28,
+          "comments": 4,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49311379"
+          ]
+        }
+      },
+      {
+        "id": "hn-49303592",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49303592",
+        "published_at": "2026-08-14T19:36:18+00:00",
+        "text": "CEO who fired 900 people on Zoom just before Christmas wants his job back\n\nhttps://www.cnn.com/2026/08/14/business/vishal-garg-better-ceo",
+        "metrics": {
+          "likes": 114,
+          "comments": 98,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.cnn.com/2026/08/14/business/vishal-garg-better-ceo",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49303592"
+          ]
+        }
+      },
+      {
+        "id": "hn-49298283",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49298283",
+        "published_at": "2026-08-14T13:17:06+00:00",
+        "text": "Rings forged from meteorites may have been fashionable among ancient Greek elite\n\nhttps://phys.org/news/2026-08-forged-meteorites-fashionable-ancient-greek.html",
+        "metrics": {
+          "likes": 96,
+          "comments": 37,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://phys.org/news/2026-08-forged-meteorites-fashionable-ancient-greek.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49298283",
+            "front_page"
+          ]
+        }
+      },
+      {
+        "id": "hn-49287153",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49287153",
+        "published_at": "2026-08-13T15:07:10+00:00",
+        "text": "Text AI watermarks will always be trivial to remove\n\nhttps://www.seangoedecke.com/text-ai-watermarks/",
+        "metrics": {
+          "likes": 147,
+          "comments": 192,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.seangoedecke.com/text-ai-watermarks/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49287153"
+          ]
+        }
+      },
+      {
+        "id": "hn-49285035",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49285035",
+        "published_at": "2026-08-13T12:38:36+00:00",
+        "text": "Goat herding hedge: Susquehanna, Kalshi help company offset change in law\n\nhttps://www.cnbc.com/2026/08/13/how-a-california-goat-herding-company-is-hedging-against-risk-of-higher-wages.html",
+        "metrics": {
+          "likes": 2,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.cnbc.com/2026/08/13/how-a-california-goat-herding-company-is-hedging-against-risk-of-higher-wages.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49285035"
+          ]
+        }
+      },
+      {
+        "id": "hn-49284996",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49284996",
+        "published_at": "2026-08-13T12:34:52+00:00",
+        "text": "Behold the 'glueball,' a new form of matter\n\nhttps://www.science.org/content/article/behold-glueball-strange-new-form-matter",
+        "metrics": {
+          "likes": 3,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.science.org/content/article/behold-glueball-strange-new-form-matter",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49284996"
+          ]
+        }
+      },
+      {
+        "id": "hn-49273505",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49273505",
+        "published_at": "2026-08-12T15:03:05+00:00",
+        "text": "AI-assisted grant proposals may win more often–while narrowing research ideas\n\nhttps://phys.org/news/2026-08-ai-grant-narrowing-ideas.html",
+        "metrics": {
+          "likes": 2,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://phys.org/news/2026-08-ai-grant-narrowing-ideas.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49273505"
+          ]
+        }
+      },
+      {
+        "id": "hn-49271295",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49271295",
+        "published_at": "2026-08-12T12:24:12+00:00",
+        "text": "AI was supposed to destroy jobs. Where's the carnage?\n\nhttps://www.theguardian.com/technology/2026/aug/12/ai-job-destruction",
+        "metrics": {
+          "likes": 4,
+          "comments": 2,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.theguardian.com/technology/2026/aug/12/ai-job-destruction",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49271295"
+          ]
+        }
+      },
+      {
+        "id": "hn-49271092",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49271092",
+        "published_at": "2026-08-12T12:04:36+00:00",
+        "text": "Voyager engineers found two more years in a 50-year-old power budget\n\nhttps://www.theregister.com/science/2026/08/12/how-voyager-engineers-found-two-more-years-in-a-50-year-old-power-budget/5284906",
+        "metrics": {
+          "likes": 8,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.theregister.com/science/2026/08/12/how-voyager-engineers-found-two-more-years-in-a-50-year-old-power-budget/5284906",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49271092"
+          ]
+        }
+      },
+      {
+        "id": "hn-49271084",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49271084",
+        "published_at": "2026-08-12T12:03:23+00:00",
+        "text": "AI compute power becoming tradable asset class as CME launches futures contracts\n\nhttps://www.cnbc.com/2026/08/11/ai-computing-power-becomes-a-tradable-asset-class-as-cme-starts-futures.html",
+        "metrics": {
+          "likes": 4,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.cnbc.com/2026/08/11/ai-computing-power-becomes-a-tradable-asset-class-as-cme-starts-futures.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49271084"
+          ]
+        }
+      },
+      {
+        "id": "hn-49256195",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49256195",
+        "published_at": "2026-08-11T10:56:30+00:00",
+        "text": "Linus Torvalds says AI has made 'huge' Linux kernel updates the new normal\n\nhttps://www.theregister.com/os-platforms/2026/08/10/linus-torvalds-says-ai-has-made-huge-linux-kernel-updates-the-new-normal/5285268",
+        "metrics": {
+          "likes": 13,
+          "comments": 5,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.theregister.com/os-platforms/2026/08/10/linus-torvalds-says-ai-has-made-huge-linux-kernel-updates-the-new-normal/5285268",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49256195"
+          ]
+        }
+      },
+      {
+        "id": "hn-49256185",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49256185",
+        "published_at": "2026-08-11T10:55:36+00:00",
+        "text": "AI cyclone forecasts could add 30 hours of warning time\n\nhttps://phys.org/news/2026-08-ai-cyclone-hours.html",
+        "metrics": {
+          "likes": 1,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://phys.org/news/2026-08-ai-cyclone-hours.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49256185"
+          ]
+        }
+      },
+      {
+        "id": "hn-49252843",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49252843",
+        "published_at": "2026-08-11T02:57:23+00:00",
+        "text": "One of China's workhorse rockets just exploded in flight\n\nhttps://arstechnica.com/space/2026/08/one-of-chinas-workhorse-rockets-just-exploded-in-flight/",
+        "metrics": {
+          "likes": 3,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://arstechnica.com/space/2026/08/one-of-chinas-workhorse-rockets-just-exploded-in-flight/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49252843"
+          ]
+        }
+      },
+      {
+        "id": "hn-49251978",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49251978",
+        "published_at": "2026-08-11T00:59:50+00:00",
+        "text": "Flock Cameras Can Track Every Car in America. Police Love Them. Citizens Don't\n\nhttps://www.nytimes.com/2026/08/10/us/flock-cameras-can-track-every-car-in-america-police-love-them-citizens-dont.html",
+        "metrics": {
+          "likes": 66,
+          "comments": 45,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.nytimes.com/2026/08/10/us/flock-cameras-can-track-every-car-in-america-police-love-them-citizens-dont.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49251978"
+          ]
+        }
+      },
+      {
+        "id": "hn-49249638",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49249638",
+        "published_at": "2026-08-10T20:58:29+00:00",
+        "text": "Executive order calls for fewer childhood vaccines, links shots to autism\n\nhttps://www.cnbc.com/2026/08/10/trump-vaccine-executive-order-autism.html",
+        "metrics": {
+          "likes": 16,
+          "comments": 1,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.cnbc.com/2026/08/10/trump-vaccine-executive-order-autism.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49249638"
+          ]
+        }
+      },
+      {
+        "id": "hn-49247066",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49247066",
+        "published_at": "2026-08-10T17:40:52+00:00",
+        "text": "An Underscore Sent an Innocent Man to Jail\n\nhttps://canliiconnects.org/en/commentaries/99756",
+        "metrics": {
+          "likes": 2,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://canliiconnects.org/en/commentaries/99756",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49247066"
+          ]
+        }
+      },
+      {
+        "id": "hn-49238418",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49238418",
+        "published_at": "2026-08-10T01:59:10+00:00",
+        "text": "Neutrinos from Deep Inside Earth Provide a New Picture of the Mantle\n\nhttps://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807/",
+        "metrics": {
+          "likes": 3,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49238418"
+          ]
+        }
+      },
+      {
+        "id": "hn-49230384",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49230384",
+        "published_at": "2026-08-09T11:13:27+00:00",
+        "text": "Myspace eyes comeback as an an 'antidote' to social media fatigue\n\nhttps://www.cnbc.com/2026/08/09/myspace-comeback-rival-social-media-giants.html",
+        "metrics": {
+          "likes": 3,
+          "comments": 1,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.cnbc.com/2026/08/09/myspace-comeback-rival-social-media-giants.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49230384"
+          ]
+        }
+      },
+      {
+        "id": "hn-49230169",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49230169",
+        "published_at": "2026-08-09T10:39:00+00:00",
+        "text": "The West's Demographic Math No Longer Adds Up\n\nhttps://www.politico.com/news/magazine/2026/08/08/europe-us-fertility-immigration-01029122",
+        "metrics": {
+          "likes": 6,
+          "comments": 2,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.politico.com/news/magazine/2026/08/08/europe-us-fertility-immigration-01029122",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49230169"
+          ]
+        }
+      },
+      {
+        "id": "hn-49227610",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49227610",
+        "published_at": "2026-08-09T01:41:40+00:00",
+        "text": "Archive of Animal Photography Reveals 18,000 Species and Counting\n\nhttps://www.smithsonianmag.com/science-nature/this-amazing-archive-of-animal-photography-reveals-18000-species-and-counting-heres-how-joel-sartore-built-his-photo-ark-180989282/",
+        "metrics": {
+          "likes": 41,
+          "comments": 9,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.smithsonianmag.com/science-nature/this-amazing-archive-of-animal-photography-reveals-18000-species-and-counting-heres-how-joel-sartore-built-his-photo-ark-180989282/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49227610"
+          ]
+        }
+      },
+      {
+        "id": "hn-49225732",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49225732",
+        "published_at": "2026-08-08T20:44:47+00:00",
+        "text": "Reservation Apps Have Made Getting into a Restaurant a Nightmare\n\nhttps://www.wsj.com/business/restaurant-reservation-apps-30a29e6b",
+        "metrics": {
+          "likes": 4,
+          "comments": 4,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.wsj.com/business/restaurant-reservation-apps-30a29e6b",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49225732"
+          ]
+        }
+      },
+      {
+        "id": "hn-49225699",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49225699",
+        "published_at": "2026-08-08T20:40:23+00:00",
+        "text": "Abolish the Top Ten Books List\n\nhttps://thewalrus.ca/abolish-the-top-ten-books-list/",
+        "metrics": {
+          "likes": 5,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://thewalrus.ca/abolish-the-top-ten-books-list/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49225699"
+          ]
+        }
+      },
+      {
+        "id": "hn-49225676",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49225676",
+        "published_at": "2026-08-08T20:37:24+00:00",
+        "text": "The Unreasonable Effectiveness of Mathematics in the Natural Sciences [pdf] (1960)\n\nhttps://web.njit.edu/~akansu/PAPERS/The%20Unreasonable%20Effectiveness%20of%20Mathematics%20(EP%20Wigner).pdf",
+        "metrics": {
+          "likes": 46,
+          "comments": 29,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://web.njit.edu/~akansu/PAPERS/The%20Unreasonable%20Effectiveness%20of%20Mathematics%20(EP%20Wigner).pdf",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49225676"
+          ]
+        }
+      },
+      {
+        "id": "hn-49220870",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49220870",
+        "published_at": "2026-08-08T11:42:19+00:00",
+        "text": "Safety fears as scientists make first viruses designed by AI\n\nhttps://www.theguardian.com/science/2026/aug/06/safety-fears-as-scientists-make-first-viruses-designed-by-ai",
+        "metrics": {
+          "likes": 5,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.theguardian.com/science/2026/aug/06/safety-fears-as-scientists-make-first-viruses-designed-by-ai",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49220870"
+          ]
+        }
+      },
+      {
+        "id": "hn-49220853",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49220853",
+        "published_at": "2026-08-08T11:38:59+00:00",
+        "text": "Remembering the pre-Google web, when search was an experiment\n\nhttps://arstechnica.com/gadgets/2026/08/remembering-the-pre-google-web-when-search-was-an-experiment/",
+        "metrics": {
+          "likes": 4,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://arstechnica.com/gadgets/2026/08/remembering-the-pre-google-web-when-search-was-an-experiment/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49220853"
+          ]
+        }
+      },
+      {
+        "id": "hn-49220377",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49220377",
+        "published_at": "2026-08-08T10:13:06+00:00",
+        "text": "The ultimate eclipse chase: A Concorde raced against the Moon's shadow\n\nhttps://arstechnica.com/science/2026/08/the-ultimate-eclipse-chase-a-concorde-raced-against-the-moons-shadow/",
+        "metrics": {
+          "likes": 3,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://arstechnica.com/science/2026/08/the-ultimate-eclipse-chase-a-concorde-raced-against-the-moons-shadow/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49220377"
+          ]
+        }
+      },
+      {
+        "id": "hn-49215542",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49215542",
+        "published_at": "2026-08-07T20:01:46+00:00",
+        "text": "An Underscore Sent an Innocent Man to Jail\n\nhttps://canliiconnects.org/en/commentaries/99756",
+        "metrics": {
+          "likes": 8,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://canliiconnects.org/en/commentaries/99756",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49215542"
+          ]
+        }
+      },
+      {
+        "id": "hn-49202186",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49202186",
+        "published_at": "2026-08-06T20:38:17+00:00",
+        "text": "Should AI labs be treated like the owners of dangerous animals?\n\nhttps://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals",
+        "metrics": {
+          "likes": 2,
+          "comments": 1,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49202186"
+          ]
+        }
+      },
+      {
+        "id": "hn-49201709",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49201709",
+        "published_at": "2026-08-06T20:06:15+00:00",
+        "text": "LLMs Set My Fiction Free\n\nhttps://yalereview.org/article/christopher-sorrentino-machine-stories",
+        "metrics": {
+          "likes": 3,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://yalereview.org/article/christopher-sorrentino-machine-stories",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49201709"
+          ]
+        }
+      },
+      {
+        "id": "hn-49200390",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49200390",
+        "published_at": "2026-08-06T18:22:16+00:00",
+        "text": "Federal Communications Commission scraps limit on broadcast TV ownership\n\nhttps://www.nbcnews.com/business/media/federal-communications-commission-scraps-limit-broadcast-tv-ownership-rcna587641",
+        "metrics": {
+          "likes": 179,
+          "comments": 112,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.nbcnews.com/business/media/federal-communications-commission-scraps-limit-broadcast-tv-ownership-rcna587641",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49200390"
+          ]
+        }
+      },
+      {
+        "id": "hn-49196144",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49196144",
+        "published_at": "2026-08-06T13:05:50+00:00",
+        "text": "Meta latest to tell world its AI agent wandered out of test pen\n\nhttps://www.theregister.com/ai-and-ml/2026/08/06/meta-latest-to-tell-world-its-ai-agent-wandered-out-of-test-pen/5283947",
+        "metrics": {
+          "likes": 2,
+          "comments": 4,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.theregister.com/ai-and-ml/2026/08/06/meta-latest-to-tell-world-its-ai-agent-wandered-out-of-test-pen/5283947",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49196144"
+          ]
+        }
+      },
+      {
+        "id": "hn-49195038",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49195038",
+        "published_at": "2026-08-06T10:55:39+00:00",
+        "text": "Should Researchers Write Papers for AI Instead of People?\n\nhttps://spectrum.ieee.org/ai-scientist-research-paper-format",
+        "metrics": {
+          "likes": 3,
+          "comments": 1,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://spectrum.ieee.org/ai-scientist-research-paper-format",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49195038"
+          ]
+        }
+      },
+      {
+        "id": "hn-49194970",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49194970",
+        "published_at": "2026-08-06T10:44:21+00:00",
+        "text": "Google is expanding its AI empire – and losing the people who built it\n\nhttps://www.cnbc.com/2026/08/05/google-is-expanding-its-ai-empire-and-losing-the-people-who-built-it.html",
+        "metrics": {
+          "likes": 4,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.cnbc.com/2026/08/05/google-is-expanding-its-ai-empire-and-losing-the-people-who-built-it.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49194970"
+          ]
+        }
+      },
+      {
+        "id": "hn-49187955",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49187955",
+        "published_at": "2026-08-05T19:45:36+00:00",
+        "text": "China's A.I. Is Surging Across Africa. That Should Worry Silicon Valley\n\nhttps://www.nytimes.com/2026/08/05/technology/ai-china-africa.html",
+        "metrics": {
+          "likes": 4,
+          "comments": 1,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.nytimes.com/2026/08/05/technology/ai-china-africa.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49187955"
+          ]
+        }
+      },
+      {
+        "id": "hn-49181519",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49181519",
+        "published_at": "2026-08-05T11:49:34+00:00",
+        "text": "Why Erdős Problems Are Falling to AI\n\nhttps://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+        "metrics": {
+          "likes": 155,
+          "comments": 139,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49181519"
+          ]
+        }
+      },
+      {
+        "id": "hn-49176236",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49176236",
+        "published_at": "2026-08-04T22:38:32+00:00",
+        "text": "Bending Spoons Is Buying Airtable for $1.3B. It Was Valued at $11B in 2021\n\nhttps://www.inc.com/lucia-auerbach/bending-spoons-buying-airtable-for-1-billion-valued-at-11-billion-in-2021/91384406",
+        "metrics": {
+          "likes": 3,
+          "comments": 2,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.inc.com/lucia-auerbach/bending-spoons-buying-airtable-for-1-billion-valued-at-11-billion-in-2021/91384406",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49176236"
+          ]
+        }
+      },
+      {
+        "id": "hn-49172003",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49172003",
+        "published_at": "2026-08-04T17:25:06+00:00",
+        "text": "NJ files antitrust lawsuit against Amazon over delivery contractor control\n\nhttps://www.cnbc.com/2026/08/04/nj-amazon-antitrust-lawsuit-delivery-contractors.html",
+        "metrics": {
+          "likes": 4,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.cnbc.com/2026/08/04/nj-amazon-antitrust-lawsuit-delivery-contractors.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49172003"
+          ]
+        }
+      },
+      {
+        "id": "hn-49157135",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49157135",
+        "published_at": "2026-08-03T15:31:55+00:00",
+        "text": "When rogue AI launches a cyberattack, who is legally responsible?\n\nhttps://www.yahoo.com/news/politics/articles/rogue-ai-launches-cyberattack-legally-011003955.html",
+        "metrics": {
+          "likes": 2,
+          "comments": 1,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.yahoo.com/news/politics/articles/rogue-ai-launches-cyberattack-legally-011003955.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49157135"
+          ]
+        }
+      },
+      {
+        "id": "hn-49154250",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49154250",
+        "published_at": "2026-08-03T11:17:58+00:00",
+        "text": "Sci-fi authors Scalzi and Stross decry AI's dystopian impact on their craft\n\nhttps://www.theregister.com/ai-and-ml/2026/08/03/sci-fi-authors-scalzi-and-stross-decry-ais-dystopian-impact-on-their-craft/5282176",
+        "metrics": {
+          "likes": 5,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.theregister.com/ai-and-ml/2026/08/03/sci-fi-authors-scalzi-and-stross-decry-ais-dystopian-impact-on-their-craft/5282176",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49154250"
+          ]
+        }
+      },
+      {
+        "id": "hn-49154122",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49154122",
+        "published_at": "2026-08-03T11:05:35+00:00",
+        "text": "Hiroshima atomic bombing created a new material. Scientists just discovered it\n\nhttps://www.scientificamerican.com/article/bizarre-new-material-discovered-in-hiroshima-bombing-debris/",
+        "metrics": {
+          "likes": 10,
+          "comments": 1,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.scientificamerican.com/article/bizarre-new-material-discovered-in-hiroshima-bombing-debris/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49154122"
+          ]
+        }
+      },
+      {
+        "id": "hn-49153942",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49153942",
+        "published_at": "2026-08-03T10:43:58+00:00",
+        "text": "Hollywood fights AI in public while building it into movies\n\nhttps://www.msn.com/en-us/money/other/hollywood-fights-ai-in-public-while-quietly-building-it-into-movies/ar-AA28IhCH",
+        "metrics": {
+          "likes": 3,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://www.msn.com/en-us/money/other/hollywood-fights-ai-in-public-while-quietly-building-it-into-movies/ar-AA28IhCH",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49153942"
+          ]
+        }
+      },
+      {
+        "id": "hn-49134334",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49134334",
+        "published_at": "2026-08-01T13:38:38+00:00",
+        "text": "Reducing protein intake could support healthy aging by reshaping metabolism\n\nhttps://medicalxpress.com/news/2026-07-protein-intake-healthy-aging-reshaping.html",
+        "metrics": {
+          "likes": 1,
+          "comments": 0,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://medicalxpress.com/news/2026-07-protein-intake-healthy-aging-reshaping.html",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49134334"
+          ]
+        }
+      },
+      {
+        "id": "hn-49132954",
+        "account": "hn:author:pseudolus",
+        "platform": "hn",
+        "url": "https://news.ycombinator.com/item?id=49132954",
+        "published_at": "2026-08-01T10:11:40+00:00",
+        "text": "A Yale AI-cheating dispute became a 13-count federal lawsuit\n\nhttps://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit/",
+        "metrics": {
+          "likes": 4,
+          "comments": 2,
+          "reposts": null,
+          "collects": null,
+          "views": null
+        },
+        "media_type": "link",
+        "source": "hackernews-algolia",
+        "raw": {
+          "author": "pseudolus",
+          "external_url": "https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit/",
+          "tags": [
+            "story",
+            "author_pseudolus",
+            "story_49132954"
+          ]
+        }
+      }
+    ],
+    "high_performer_ids": [
+      "hn-49343559",
+      "hn-49287153",
+      "hn-49181519"
+    ],
+    "control_group_ids": [
+      "hn-49238418",
+      "hn-49196144",
+      "hn-49355320"
+    ]
+  },
+  "analysis": {
+    "account": "hn:author:pseudolus",
+    "engine": "rule",
+    "core_insight": "在 hn:author:pseudolus 的受众里，拉开互动量差距的是【Hook 类型、是否含数字、发布时段】：高表现内容靠可验证的事实/官方动作建立可信度，而对照组把关键信息埋在了中后段。可直接复用的动作：开头套用「权威背书型」句式；数字堆砌并未带来增益，别为凑数字牺牲可读性。",
+    "explanatory_power": "解释力中等：六维指数仅高 +3.0 分（真实互动差距 109x），文案写法只能部分解释，选题领域与发布时机同样关键，模板需配合选题清单使用。",
+    "rejected_hypotheses": [],
+    "post_analyses": [
+      {
+        "post_id": "hn-49343559",
+        "group": "high",
+        "one_line": "胜负手在【选题】(86分)，短板是【CTA（行动号召）】(25分)",
+        "viral_index": 63,
+        "dimensions": {
+          "topic": {
+            "key": "topic",
+            "name": "选题",
+            "score": 86,
+            "insight": "选题命中 痛点/焦虑、热点/时效、含具体数字 类需求信号",
+            "evidence": "Google has acquired the data of failed US air…"
+          },
+          "hook": {
+            "key": "hook",
+            "name": "Hook（开头）",
+            "score": 74,
+            "insight": "权威背书型，首句 56 字",
+            "evidence": "acquir"
+          },
+          "structure": {
+            "key": "structure",
+            "name": "结构节奏",
+            "score": 66,
+            "insight": "2 段 / 平均句长 87.5 字 / 走向：Hook→论据/清单",
+            "evidence": "Hook → 论据/清单"
+          },
+          "density": {
+            "key": "density",
+            "name": "信息密度",
+            "score": 62,
+            "insight": "信息密度中等，可再压缩铺垫",
+            "evidence": "6 个信息点 / 166 字 = 3.61/百字"
+          },
+          "cta": {
+            "key": "cta",
+            "name": "CTA（行动号召）",
+            "score": 25,
+            "insight": "结尾没有行动指令，互动全靠读者自发，转化漏斗直接断裂",
+            "evidence": "缺失"
+          },
+          "interaction": {
+            "key": "interaction",
+            "name": "互动设计",
+            "score": 30,
+            "insight": "没有任何互动装置，评论区缺少发言入口",
+            "evidence": "装置 0 个 / 话题标签 0 个"
+          }
+        }
+      },
+      {
+        "post_id": "hn-49287153",
+        "group": "high",
+        "one_line": "胜负手在【结构节奏】(58分)，短板是【CTA（行动号召）】(25分)",
+        "viral_index": 41,
+        "dimensions": {
+          "topic": {
+            "key": "topic",
+            "name": "选题",
+            "score": 40,
+            "insight": "选题缺少明确的痛点/利益/争议信号，受众没有点进来的动机",
+            "evidence": "Text AI watermarks will always be trivial to …"
+          },
+          "hook": {
+            "key": "hook",
+            "name": "Hook（开头）",
+            "score": 45,
+            "insight": "平铺直叙型，首句 51 字",
+            "evidence": "Text AI watermarks will always be trivi…"
+          },
+          "structure": {
+            "key": "structure",
+            "name": "结构节奏",
+            "score": 58,
+            "insight": "2 段 / 平均句长 49.5 字 / 走向：Hook→展开论述",
+            "evidence": "Hook → 展开论述"
+          },
+          "density": {
+            "key": "density",
+            "name": "信息密度",
+            "score": 42,
+            "insight": "信息稀薄，读者拿不到可带走的干货",
+            "evidence": "1 个信息点 / 91 字 = 1.1/百字"
+          },
+          "cta": {
+            "key": "cta",
+            "name": "CTA（行动号召）",
+            "score": 25,
+            "insight": "结尾没有行动指令，互动全靠读者自发，转化漏斗直接断裂",
+            "evidence": "缺失"
+          },
+          "interaction": {
+            "key": "interaction",
+            "name": "互动设计",
+            "score": 30,
+            "insight": "没有任何互动装置，评论区缺少发言入口",
+            "evidence": "装置 0 个 / 话题标签 0 个"
+          }
+        }
+      },
+      {
+        "post_id": "hn-49181519",
+        "group": "high",
+        "one_line": "胜负手在【Hook（开头）】(94分)，短板是【CTA（行动号召）】(25分)",
+        "viral_index": 60,
+        "dimensions": {
+          "topic": {
+            "key": "topic",
+            "name": "选题",
+            "score": 64,
+            "insight": "选题命中 热点/时效、含具体数字 类需求信号",
+            "evidence": "Why Erdős Problems Are Falling to AI"
+          },
+          "hook": {
+            "key": "hook",
+            "name": "Hook（开头）",
+            "score": 94,
+            "insight": "疑问悬念型，首句 36 字",
+            "evidence": "Why"
+          },
+          "structure": {
+            "key": "structure",
+            "name": "结构节奏",
+            "score": 66,
+            "insight": "2 段 / 平均句长 63.5 字 / 走向：Hook→论据/清单",
+            "evidence": "Hook → 论据/清单"
+          },
+          "density": {
+            "key": "density",
+            "name": "信息密度",
+            "score": 42,
+            "insight": "信息稀薄，读者拿不到可带走的干货",
+            "evidence": "2 个信息点 / 121 字 = 1.65/百字"
+          },
+          "cta": {
+            "key": "cta",
+            "name": "CTA（行动号召）",
+            "score": 25,
+            "insight": "结尾没有行动指令，互动全靠读者自发，转化漏斗直接断裂",
+            "evidence": "缺失"
+          },
+          "interaction": {
+            "key": "interaction",
+            "name": "互动设计",
+            "score": 30,
+            "insight": "没有任何互动装置，评论区缺少发言入口",
+            "evidence": "装置 0 个 / 话题标签 0 个"
+          }
+        }
+      },
+      {
+        "post_id": "hn-49238418",
+        "group": "normal",
+        "one_line": "胜负手在【选题】(82分)，短板是【CTA（行动号召）】(25分)",
+        "viral_index": 52,
+        "dimensions": {
+          "topic": {
+            "key": "topic",
+            "name": "选题",
+            "score": 82,
+            "insight": "选题命中 新知/认知差、热点/时效、含具体数字 类需求信号",
+            "evidence": "Neutrinos from Deep Inside Earth Provide a Ne…"
+          },
+          "hook": {
+            "key": "hook",
+            "name": "Hook（开头）",
+            "score": 45,
+            "insight": "平铺直叙型，首句 68 字",
+            "evidence": "Neutrinos from Deep Inside Earth Provid…"
+          },
+          "structure": {
+            "key": "structure",
+            "name": "结构节奏",
+            "score": 66,
+            "insight": "2 段 / 平均句长 88.5 字 / 走向：Hook→论据/清单",
+            "evidence": "Hook → 论据/清单"
+          },
+          "density": {
+            "key": "density",
+            "name": "信息密度",
+            "score": 42,
+            "insight": "信息稀薄，读者拿不到可带走的干货",
+            "evidence": "2 个信息点 / 166 字 = 1.2/百字"
+          },
+          "cta": {
+            "key": "cta",
+            "name": "CTA（行动号召）",
+            "score": 25,
+            "insight": "结尾没有行动指令，互动全靠读者自发，转化漏斗直接断裂",
+            "evidence": "缺失"
+          },
+          "interaction": {
+            "key": "interaction",
+            "name": "互动设计",
+            "score": 30,
+            "insight": "没有任何互动装置，评论区缺少发言入口",
+            "evidence": "装置 0 个 / 话题标签 0 个"
+          }
+        }
+      },
+      {
+        "post_id": "hn-49196144",
+        "group": "normal",
+        "one_line": "胜负手在【结构节奏】(66分)，短板是【CTA（行动号召）】(25分)",
+        "viral_index": 48,
+        "dimensions": {
+          "topic": {
+            "key": "topic",
+            "name": "选题",
+            "score": 64,
+            "insight": "选题命中 热点/时效、含具体数字 类需求信号",
+            "evidence": "Meta latest to tell world its AI agent wander…"
+          },
+          "hook": {
+            "key": "hook",
+            "name": "Hook（开头）",
+            "score": 45,
+            "insight": "平铺直叙型，首句 63 字",
+            "evidence": "Meta latest to tell world its AI agent …"
+          },
+          "structure": {
+            "key": "structure",
+            "name": "结构节奏",
+            "score": 66,
+            "insight": "2 段 / 平均句长 91.5 字 / 走向：Hook→论据/清单",
+            "evidence": "Hook → 论据/清单"
+          },
+          "density": {
+            "key": "density",
+            "name": "信息密度",
+            "score": 42,
+            "insight": "信息稀薄，读者拿不到可带走的干货",
+            "evidence": "5 个信息点 / 171 字 = 2.92/百字"
+          },
+          "cta": {
+            "key": "cta",
+            "name": "CTA（行动号召）",
+            "score": 25,
+            "insight": "结尾没有行动指令，互动全靠读者自发，转化漏斗直接断裂",
+            "evidence": "缺失"
+          },
+          "interaction": {
+            "key": "interaction",
+            "name": "互动设计",
+            "score": 30,
+            "insight": "没有任何互动装置，评论区缺少发言入口",
+            "evidence": "装置 0 个 / 话题标签 0 个"
+          }
+        }
+      },
+      {
+        "post_id": "hn-49355320",
+        "group": "normal",
+        "one_line": "胜负手在【Hook（开头）】(74分)，短板是【CTA（行动号召）】(25分)",
+        "viral_index": 55,
+        "dimensions": {
+          "topic": {
+            "key": "topic",
+            "name": "选题",
+            "score": 64,
+            "insight": "选题命中 热点/时效、含具体数字 类需求信号",
+            "evidence": "OpenAI announces slowing pace of development …"
+          },
+          "hook": {
+            "key": "hook",
+            "name": "Hook（开头）",
+            "score": 74,
+            "insight": "权威背书型，首句 70 字",
+            "evidence": "announce"
+          },
+          "structure": {
+            "key": "structure",
+            "name": "结构节奏",
+            "score": 66,
+            "insight": "2 段 / 平均句长 69.5 字 / 走向：Hook→论据/清单",
+            "evidence": "Hook → 论据/清单"
+          },
+          "density": {
+            "key": "density",
+            "name": "信息密度",
+            "score": 42,
+            "insight": "信息稀薄，读者拿不到可带走的干货",
+            "evidence": "3 个信息点 / 129 字 = 2.33/百字"
+          },
+          "cta": {
+            "key": "cta",
+            "name": "CTA（行动号召）",
+            "score": 25,
+            "insight": "结尾没有行动指令，互动全靠读者自发，转化漏斗直接断裂",
+            "evidence": "缺失"
+          },
+          "interaction": {
+            "key": "interaction",
+            "name": "互动设计",
+            "score": 30,
+            "insight": "没有任何互动装置，评论区缺少发言入口",
+            "evidence": "装置 0 个 / 话题标签 0 个"
+          }
+        }
+      }
+    ],
+    "variables": [
+      {
+        "name": "Hook 类型",
+        "kind": "categorical",
+        "high_value": "权威背书型（33%）",
+        "normal_value": "平铺直叙型",
+        "delta": "不同",
+        "effect": 0.333,
+        "confidence": "疑似相关",
+        "explanation": "高表现组集中使用「权威背书型」，对照组主要是「平铺直叙型」",
+        "actionable": "开头套用「权威背书型」句式"
+      },
+      {
+        "name": "是否含数字",
+        "kind": "boolean",
+        "high_value": "67% 命中",
+        "normal_value": "100% 命中",
+        "delta": "-33pp",
+        "effect": -0.333,
+        "confidence": "疑似相关",
+        "explanation": "该特征反而更多出现在普通组（命中率差 -33 个百分点）",
+        "actionable": "数字堆砌并未带来增益，别为凑数字牺牲可读性"
+      },
+      {
+        "name": "发布时段",
+        "kind": "categorical",
+        "high_value": "早间 06-11（33%）",
+        "normal_value": "深夜 00-06",
+        "delta": "不同",
+        "effect": 0.333,
+        "confidence": "疑似相关",
+        "explanation": "高表现组集中使用「早间 06-11」，对照组主要是「深夜 00-06」",
+        "actionable": "优先在「早间 06-11」发布"
+      },
+      {
+        "name": "发布星期",
+        "kind": "categorical",
+        "high_value": "周二（33%）",
+        "normal_value": "周一",
+        "delta": "不同",
+        "effect": 0.333,
+        "confidence": "疑似相关",
+        "explanation": "高表现组集中使用「周二」，对照组主要是「周一」",
+        "actionable": "优先在「周二」发布"
+      },
+      {
+        "name": "首句字数",
+        "kind": "numeric",
+        "high_value": "47.7字",
+        "normal_value": "67.0字",
+        "delta": "-19.3字",
+        "effect": -0.289,
+        "confidence": "疑似相关",
+        "explanation": "存在中等差异，建议 A/B 复验",
+        "actionable": "把首句压缩到 48字 左右"
+      },
+      {
+        "name": "平均句长",
+        "kind": "numeric",
+        "high_value": "66.8字",
+        "normal_value": "83.2字",
+        "delta": "-16.3字",
+        "effect": -0.196,
+        "confidence": "疑似相关",
+        "explanation": "存在中等差异，建议 A/B 复验",
+        "actionable": "平均句长压缩到 67字（拆长句）"
+      },
+      {
+        "name": "正文字数",
+        "kind": "numeric",
+        "high_value": "126.0字",
+        "normal_value": "155.3字",
+        "delta": "-29.3字",
+        "effect": -0.189,
+        "confidence": "疑似相关",
+        "explanation": "存在中等差异，建议 A/B 复验",
+        "actionable": "正文篇幅压缩到 126字 量级，不要为凑长度加铺垫"
+      },
+      {
+        "name": "信息密度",
+        "kind": "numeric",
+        "high_value": "2.1点/百字",
+        "normal_value": "2.1点/百字",
+        "delta": "-0.0点/百字",
+        "effect": -0.014,
+        "confidence": "噪声",
+        "explanation": "差异过小，不足以解释数据分化",
+        "actionable": "信息密度压缩到 2.1 点/百字"
+      },
+      {
+        "name": "段落数",
+        "kind": "numeric",
+        "high_value": "2.0段",
+        "normal_value": "2.0段",
+        "delta": "+0.0段",
+        "effect": 0.0,
+        "confidence": "噪声",
+        "explanation": "差异过小，不足以解释数据分化",
+        "actionable": "段落数保持在 2 段，按此切节奏"
+      },
+      {
+        "name": "CTA 类型",
+        "kind": "categorical",
+        "high_value": "无明确 CTA（100%）",
+        "normal_value": "无明确 CTA",
+        "delta": "一致",
+        "effect": 0.0,
+        "confidence": "噪声",
+        "explanation": "两组主导取值一致，不构成差异来源",
+        "actionable": "两组 CTA 都是「无明确 CTA」，若为'无明确 CTA'则是可直接吃到的增量空间"
+      },
+      {
+        "name": "互动装置数",
+        "kind": "numeric",
+        "high_value": "0.0个",
+        "normal_value": "0.0个",
+        "delta": "+0.0个",
+        "effect": 0.0,
+        "confidence": "噪声",
+        "explanation": "差异过小，不足以解释数据分化",
+        "actionable": "互动装置数量保持在 0 个"
+      },
+      {
+        "name": "话题标签数",
+        "kind": "numeric",
+        "high_value": "0.0个",
+        "normal_value": "0.0个",
+        "delta": "+0.0个",
+        "effect": 0.0,
+        "confidence": "噪声",
+        "explanation": "差异过小，不足以解释数据分化",
+        "actionable": "话题标签数保持在 0 个"
+      }
+    ],
+    "template": {
+      "name": "权威背书型·低门槛互动型（补齐项） 结构模板",
+      "applicable_scene": "hn 平台 / hn:author:pseudolus 同类受众的观点与干货型内容",
+      "blocks": [
+        {
+          "role": "Hook 钩子",
+          "goal": "前 1 句制造冲突或抛出结论，止住划走动作",
+          "rule": "套用「权威背书型」句式，控制在 12-30 字，必须含数字或反常识判断"
+        },
+        {
+          "role": "冲突/痛点放大",
+          "goal": "让读者确认'这说的就是我'",
+          "rule": "1-2 句描述具体场景，不要抽象名词"
+        },
+        {
+          "role": "论据/清单",
+          "goal": "交付可带走的干货，撑住信息密度",
+          "rule": "分 2-4 条，每条一个信息点，整篇密度不低于 2.1 点/百字"
+        },
+        {
+          "role": "机制解释",
+          "goal": "回答'为什么有效'，建立可信度",
+          "rule": "给出原因或原理，1-2 句，可引用真实数据"
+        },
+        {
+          "role": "收束金句",
+          "goal": "提供可转述的一句话，提升转发率",
+          "rule": "1 句，短，可独立成立"
+        },
+        {
+          "role": "CTA + 互动装置",
+          "goal": "把注意力转成评论/收藏",
+          "rule": "原样本普遍缺 CTA，这是可直接吃到的增量：补一条「低门槛互动型」CTA，并附 1 个开放式提问或二选一"
+        }
+      ],
+      "hook_patterns": [
+        "官方刚更新了推荐逻辑，这条变化最值得注意",
+        "新数据出来了，和大多数人的直觉相反",
+        "（高表现样本参考句式：acquir）"
+      ],
+      "cta_patterns": [
+        "你更认同哪一条？评论区说一个，我把反例也补上",
+        "先收藏，下次动笔前照着自检一遍"
+      ],
+      "publish_window": "早间 06-11",
+      "checklist": [
+        "首句是否是「权威背书型」且 ≤30 字？",
+        "全文是否 100-151 字、约 3 段？",
+        "信息密度是否 ≥ 2.1 点/百字？",
+        "是否有具体数字或可验证事实？",
+        "结尾是否有「低门槛互动型（补齐项）」+ 1 个互动装置？",
+        "发布时间是否落在「早间 06-11」？"
+      ],
+      "length_range": "100-151 字（高表现组均值 126 字）"
+    }
+  },
+  "drafts": [
+    {
+      "id": "DRAFT-5E6917",
+      "angle": "数据清单",
+      "hook": "拆完两组真实数据，只有 3 件事真的影响pseudolus 这类内容。",
+      "body": "拆完两组真实数据，只有 3 件事真的影响pseudolus 这类内容。\n\n先给结论：在 hn:author:pseudolus 的受众里，拉开互动量差距的是【Hook 类型、是否含数字、发布时段】：高表现内容靠可验证的事实/官方动作建立可信度，而对照组把关键信息埋在了中后段。可直接复用的动作：开头套用「权威背书型」句式；数字堆砌并未带来增益，别为凑数字牺牲可读性。\n\n数据摆在这里：\n· Hook 类型：高表现组 权威背书型（33%），普通内容 平铺直叙型（不同）→ 开头套用「权威背书型」句式\n· 发布时段：高表现组 早间 06-11（33%），普通内容 深夜 00-06（不同）→ 优先在「早间 06-11」发布\n· 发布星期：高表现组 周二（33%），普通内容 周一（不同）→ 优先在「周二」发布\n\n落到动作上，照这个顺序写就行：\n1. Hook 钩子：套用「权威背书型」句式，控制在 12-30 字，必须含数字或反常识判断\n2. 冲突/痛点放大：1-2 句描述具体场景，不要抽象名词\n3. 论据/清单：分 2-4 条，每条一个信息点，整篇密度不低于 2.1 点/百字\n4. 机制解释：给出原因或原理，1-2 句，可引用真实数据\n\n检查清单里最容易漏的一条：首句是否是「权威背书型」且 ≤30 字？\n\n你更认同哪一条？评论区说一个，我把反例也补上",
+      "cta": "你更认同哪一条？评论区说一个，我把反例也补上",
+      "interaction_device": "开放式提问",
+      "why_it_works": "用可数的结构化条目交付方法，强调可执行；套用模板《权威背书型·低门槛互动型（补齐项） 结构模板》，命中 Hook/信息密度/CTA 三项强因果变量",
+      "predicted_score": 72,
+      "engine": "rule"
+    },
+    {
+      "id": "DRAFT-596846",
+      "angle": "第一人称故事",
+      "hook": "同一个观点我写了两遍，互动量差了一个量级——差别只在开头那一句。",
+      "body": "同一个观点我写了两遍，互动量差了一个量级——差别只在开头那一句。\n\n第一版我按习惯先铺背景，第二版把结论提到了首句，其余内容几乎没动。\n\n复盘时我才看清：在 hn:author:pseudolus 的受众里，拉开互动量差距的是【Hook 类型、是否含数字、发布时段】：高表现内容靠可验证的事实/官方动作建立可信度，而对照组把关键信息埋在了中后段。可直接复用的动作：开头套用「权威背书型」句式；数字堆砌并未带来增益，别为凑数字牺牲可读性。\n\n真实数据的差别是这样的：\n· Hook 类型：高表现组 权威背书型（33%），普通内容 平铺直叙型（不同）→ 开头套用「权威背书型」句式\n· 发布时段：高表现组 早间 06-11（33%），普通内容 深夜 00-06（不同）→ 优先在「早间 06-11」发布\n· 发布星期：高表现组 周二（33%），普通内容 周一（不同）→ 优先在「周二」发布\n\n所以现在我写pseudolus 这类内容只守一条纪律：先把结论摔在读者脸上，再回头解释为什么。\n\n你更认同哪一条？评论区说一个，我把反例也补上",
+      "cta": "你更认同哪一条？评论区说一个，我把反例也补上",
+      "interaction_device": "开放式提问",
+      "why_it_works": "用亲历的对比实验讲清同一洞察，降低说教感；套用模板《权威背书型·低门槛互动型（补齐项） 结构模板》，命中 Hook/信息密度/CTA 三项强因果变量",
+      "predicted_score": 68,
+      "engine": "rule"
+    },
+    {
+      "id": "DRAFT-F190FD",
+      "angle": "反常识冲突",
+      "hook": "关于pseudolus 这类内容，大多数人改错了地方——真正的变量不在文案长度上。",
+      "body": "关于pseudolus 这类内容，大多数人改错了地方——真正的变量不在文案长度上。\n\n我把同一个账号近 30 天的高互动内容和普通内容摆在一起逐条对齐，结论很反直觉：在 hn:author:pseudolus 的受众里，拉开互动量差距的是【Hook 类型、是否含数字、发布时段】：高表现内容靠可验证的事实/官方动作建立可信度，而对照组把关键信息埋在了中后段。可直接复用的动作：开头套用「权威背书型」句式；数字堆砌并未带来增益，别为凑数字牺牲可读性。\n\n对比里最扎眼的三处差别：\n1. Hook 类型：高表现组 权威背书型（33%），普通内容 平铺直叙型（不同）→ 开头套用「权威背书型」句式\n2. 发布时段：高表现组 早间 06-11（33%），普通内容 深夜 00-06（不同）→ 优先在「早间 06-11」发布\n3. 发布星期：高表现组 周二（33%），普通内容 周一（不同）→ 优先在「周二」发布\n\n机制其实很朴素：读者是在前一屏决定去留的。信息密度决定他愿不愿意读完，而开头的冲突决定他会不会打开第一屏。顺序错了，后面写得再好也没人看见。\n\n一句话：pseudolus 这类内容不是写得更多，而是把结论提前。\n\n你更认同哪一条？评论区说一个，我把反例也补上",
+      "cta": "你更认同哪一条？评论区说一个，我把反例也补上",
+      "interaction_device": "开放式提问",
+      "why_it_works": "先否定一个流行做法，再给出数据支持的正解；套用模板《权威背书型·低门槛互动型（补齐项） 结构模板》，命中 Hook/信息密度/CTA 三项强因果变量",
+      "predicted_score": 61,
+      "engine": "rule"
+    }
+  ],
+  "approval": null,
+  "asset_ids": [],
+  "feedback_history": []
+}
